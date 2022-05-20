@@ -10,3 +10,10 @@ function booleanToString(b){
         return "false";
     }
 }
+
+//other answers
+// function booleanToString(b){
+//     return b.toString();
+//   }
+
+//   const booleanToString = b => b ? 'true' : 'false';
