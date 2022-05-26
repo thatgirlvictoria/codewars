@@ -17,13 +17,12 @@ cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
 */
 
 //first solution
-
 function enough(cap, on, wait) {
     let total = on + wait;
     if (total <= cap){
       return 0;
     }else{
-      return total -cap;
+      return total - cap;
     }
   }
 
